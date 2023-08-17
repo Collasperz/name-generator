@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html onload="document.getElementById('music').play()">
+
+<head>
+  <title>Name Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Name Generator</h1>
+  <p id="title">Click the button to generate a random name</p>
+  <button id="button" onclick="generateName()">Generate</button>
+  <audio style="display:none;" id="music" src="audio/main mario.mp3" loop="loop" autoplay="autoplay"></audio>
+  <audio style="display:none;" id="spin" src="audio/mario.mp3"></audio>
+  <p id="gen"></p>
+  <script src="index.js"></script>
+</body>
+
+</html>
